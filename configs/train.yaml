@@ -1,0 +1,17 @@
+# Datasets
+dataset: !!str "NTU"
+case: !!str "CS"            # NUCLA dataset please use enter CS.
+Full-Data: !!bool True      # True: use full data to trainning
+data-volume: !!int 5        # NUCLA provide 5%, 15% , 30%, 40%. NTU provide 5%, 10%, 20%, 40%.
+num-joint: !!int 25        # NTU: 25, NUCLA: 20
+
+# training parameter
+max-epoches: !!int 25
+threshold: !!float 0.6
+lr: !!float 0.001
+weight-decay: !!float 0.000001
+test-freq: !!int 1
+batch-size: !!int 128        # N-UCLA: 32, NTU: 128
+workers: !!int 16 # 16
+seg: !!int 20
+ckpt-name: !!str "SGN_GRA"
