@@ -51,8 +51,19 @@ ckpt-name: !!str "SGN_GRA"  # Checkpoint name.
 
 We would like to express our gratitude to the following contributors for their significant contributions to this research:
 
+``` wrap
+Kuan-Hung Huang, Yao-Bang Huang, Yong-Xiang Lin, Kai-Lung Hua, Mohammad Tanveer, Xuequan Lu, Imran Razzak. "GRA: Graph Representation Alignment for Semi-Supervised Action Recognition," scheduled for publication in IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), 2024.
 ```
-Kuan-Hung Huang, Yao-Bang Huang, Yong-Xiang Lin, Kai-Lung Hua, Mohammad Tanveer, Xuequan Lu, Imran Razzak. "GRA: Graph Representation Alignment for Semi-Supervised Action Recognition," scheduled for publication in IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), 2024. (Impact Factor 2022: 10.451).
+
+**BibTeX Citation**  
+```
+@ARTICLE{GRA_SGN2024Huang,  
+  author={Huang, Kuan-Hung and Huang, Yao-Bang and Lin, Yong-Xiang and Hua, Kai-Lung and Tanveer, M. and Lu, Xuequan and Razzak, Imran},  
+  journal={IEEE Transactions on Neural Networks and Learning Systems},   
+  title={GRA: Graph Representation Alignment for Semi-Supervised Action Recognition},   
+  year={2024},  
+  doi={10.1109/TNNLS.2023.3347593}  
+}
 ```
 
 Thank you for exploring our project. If you have any questions or need further assistance, please feel free to reach out.
